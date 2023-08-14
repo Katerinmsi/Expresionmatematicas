@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Expresion_matematica.MainPage">
+
+    <StackLayout>
+        <Label Text="Ingrese el valor de A:" />
+        <Entry x:Name="NumeroAEntry" Placeholder="Ingrese A" Keyboard="Numeric" />
+
+        <Label Text="Ingrese el valor de B:" />
+        <Entry x:Name="NumeroBEntry" Placeholder="Ingrese B" Keyboard="Numeric" />
+
+        <Button Text="Calcular" Clicked="CalcularButton_Clicked" />
+
+        <Label x:Name="ResultadoLabel" />
+    </StackLayout>
+</ContentPage>
